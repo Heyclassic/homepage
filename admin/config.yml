@@ -5,14 +5,15 @@ backend:
 media_folder: "static/images/uploads" # Media files will be stored in the repo under images/uploads
 
 collections:
-  - name: 'services'
-    label: 'services'
-    folder: 'src/content/services'
-    create: true
-    fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "service"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured", name: "featured", widget: "boolean"}
-      - {label: "weight", name: "rating", widget: "number"}
-      - {label: "Body", name: "body", widget: "markdown"}
+  - name: 'page'
+    label: 'Pages'
+    files:
+      - file: 'src/content/index.md'
+        label: 'Landing Page'
+        name: 'Landing Page'
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Image, name: intro_image, widget: image}
+          - {label: Absolute, name: intro_image_absolute, widget: boolean}
+          - {label: Mobile, name: intro_image_hide_on_mobile, widget: boolean}
+          - {label: Header, name: body, widget: text}
