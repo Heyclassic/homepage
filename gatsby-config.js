@@ -8,7 +8,12 @@ module.exports = {
   plugins: [
     'gatsby-plugin-sass',
     'gatsby-transformer-json',
-    'gatsby-transformer-remark',
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: ['gatsby-remark-lottie']
+      }
+    },
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-filesystem',
@@ -48,6 +53,5 @@ module.exports = {
         display: 'swap'
       }
     },
-
   ]
 };

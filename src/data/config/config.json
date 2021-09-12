@@ -4,9 +4,9 @@
     },
     "logo": {
         "mobile": "/images/logo/logo-mobile.svg",
-        "desktop": "/images/logo/logo.svg",
-        "desktop_height": "36px",
-        "alt": "Serif - A Gatsby Business Theme"
+        "desktop": "/images/logo/logo_black_transparent.jpg",
+        "desktop_height": "80px",
+        "alt": "Heyclassic Web Services"
     },
     "homepage_meta_tags": {
         "meta_description": "Serif is a modern business theme for Gatsby. It contains content types for the archetypical business website. The theme is fully responsive, blazing fast and artfully illustrated.",
@@ -16,11 +16,11 @@
         "meta_og_image": "https://www.zerostatic.io/theme/gatsby-serif/gatsby-serif-screenshot.png",
         "meta_og_description": "Serif is a modern business theme for Gatsby. It contains content types for the archetypical business website. The theme is fully responsive, blazing fast and artfully illustrated.",
         "meta_twitter_card": "summary",
-        "meta_twitter_site": "@zerostaticio",
-        "meta_twitter_creator": "@zerostaticio"
+        "meta_twitter_site": "@adsidera",
+        "meta_twitter_creator": "@adsidera"
     },
     "footer": {
-        "copyright_text": "Free Gatsby theme by",
-        "copyright_link": "https://www.zerostatic.io"
+        "copyright_text": "2021 Heyclassic Web Services - Powered by Gatsby",
+        "copyright_link": ""
     }
 }
