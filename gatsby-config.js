@@ -53,5 +53,11 @@ module.exports = {
         display: 'swap'
       }
     },
+    {
+      resolve: `gatsby-plugin-netlify-identity`,
+      options: {
+        url: `https://priceless-stonebraker-98ef09.netlify.app` // required!
+      }
+    }
   ]
 };
