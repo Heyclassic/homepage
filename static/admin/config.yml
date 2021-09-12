@@ -6,6 +6,7 @@ media_folder: "static/images/uploads" # Media files will be stored in the repo u
 
 collections:
   - name: 'services'
+    label: 'services'
     folder: 'src/content/services'
     create: true
     fields: # The fields for each document, usually in front matter
