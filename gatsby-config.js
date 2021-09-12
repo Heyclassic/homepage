@@ -2,8 +2,8 @@ const guid = process.env.NETLIFY_GOOGLE_ANALYTICS_ID;
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Serif Theme',
-    description: 'my theme'
+    title: 'Heyclassic Web Services',
+    description: 'Heyclassic Web Services'
   },
   plugins: [
     'gatsby-plugin-sass',
@@ -47,6 +47,7 @@ module.exports = {
         ],
         display: 'swap'
       }
-    }
+    },
+
   ]
 };

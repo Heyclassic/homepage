@@ -10,7 +10,8 @@ const Home = props => {
   const site = props.data.site.siteMetadata;
   const services = props.data.services.edges;
   const features = props.data.features.edges;
-  const introImageClasses = `intro-image ${intro.frontmatter.intro_image_absolute && 'intro-image-absolute'} ${intro.frontmatter.intro_image_hide_on_mobile && 'intro-image-hide-mobile'}`;
+  const introImageClasses = `intro-image ${intro.frontmatter.intro_image_absolute &&
+    'intro-image-absolute'} ${intro.frontmatter.intro_image_hide_on_mobile && 'intro-image-hide-mobile'}`;
 
   return (
     <Layout bodyClass="page-home">
@@ -18,7 +19,8 @@ const Home = props => {
       <Helmet>
         <meta
           name="description"
-          content="Small Business Theme. Multiple content types using Markdown and JSON sources. Responsive design and SCSS. This is a beautiful and artfully designed starting theme."
+          content="Heyclassic Agency offers web and e-commerce consulting and development services, continuous support
+          - all at affordable prices for small business and startups"
         />
       </Helmet>
 
