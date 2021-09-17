@@ -56,7 +56,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-netlify-identity`,
       options: {
-        url: `https://priceless-stonebraker-98ef09.netlify.app` // required!
+        url: `https://priceless-stonebraker-98ef09.netlify.app`
+         // required!
       }
     }
   ]
